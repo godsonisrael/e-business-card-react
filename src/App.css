@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 317px;
+    height: auto;
+    background: #1A1B21;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 12px 2px 12px rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-image {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-container {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-name {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.header-container > h3 {
+    font-weight: 400;
+    font-size: 12.8px;
+    margin-top: -3%;
+    color: #F3BF99;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.header-email > a {    
+    text-decoration: none;
+    color: black;
+    width: 247px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.24px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+}
+
+.main-container {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 3% 10%;
+}
+
+.main-container > h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.main-container > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.main-container > ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.footer-container {
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-container > a {
+    padding: 3%;
+    font-size: 25px;
 }
